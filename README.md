@@ -4,5 +4,5 @@ Discord bot that generates tweets and instagram posts as .png files through a co
 ## Usage
 ?tweet (message) and ?insta (image link) (caption)
 
-## Dependencies
-discord, imgkit, requests
+## Installation
+pip install -r requirements.txt
