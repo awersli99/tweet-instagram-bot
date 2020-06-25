@@ -40,7 +40,7 @@ bot = commands.Bot(command_prefix=prefix)
 async def on_ready():
     print("bot running")
     bot.remove_command('help')
-    await bot.change_presence(status=discord.Status.online, activity=discord.Game("?tweet"))
+    await bot.change_presence(status=discord.Status.online, activity=discord.Game("?tweet ?insta"))
 
 @bot.command()
 async def tweet(ctx, *args):
