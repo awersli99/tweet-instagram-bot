@@ -71,7 +71,7 @@ async def insta(ctx, *args):
         generate_insta(ctx.message.author.display_name, tweetcontent[1:], avatarurl, image)
         await ctx.message.channel.send(file=discord.File(USERDIR + "/insta.png"))
 
-bot.run("INSERT BOT TOKEN HERE", bot=True)  # Where 'TOKEN' is your bot token
+bot.run('TOKEN', bot=True)  # Where 'TOKEN' is your bot token
 
 
 
